@@ -1,0 +1,6 @@
+framework module Pods_PagSeguro {
+  umbrella header "Pods-PagSeguro-umbrella.h"
+
+  export *
+  module * { export * }
+}

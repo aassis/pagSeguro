@@ -1,0 +1,24 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+
+inhibit_all_warnings!
+
+target 'PagSeguro' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for PagSeguro
+
+  pod 'RxSwift', '~> 4.3'
+  pod 'RxCocoa', '~> 4.3'
+  pod 'SwinjectStoryboard', '~> 2.1'
+  pod 'Swinject', '2.5.0'
+  pod 'RxSwiftExt'
+  pod 'Moya/RxSwift', '~> 10.0'
+  pod 'Alamofire'
+  pod 'AlamofireImage'
+  pod 'Gloss', '~> 2.0'
+  pod 'Moya-Gloss/RxSwift', '~> 3.0'
+
+
+end
